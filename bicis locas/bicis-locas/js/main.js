@@ -32,4 +32,12 @@ function validateForm(){
  	}else if(contra=="123456"||contra=="password"||contra=="098754"){
  		alert("por favor escribe otra");
  	}
+
+
+	//SELECCIONAR UN ELEMENTO DE LA CAJA
+	var s1 = document.getElementById("form-control").value;
+	if(s1=="Selecciona tu tipo de bici"){
+		alert("por favor selecciona una opcion");
+		return false;
+	}
 }
